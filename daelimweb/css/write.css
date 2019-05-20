@@ -1,0 +1,149 @@
+#qna_write{
+    /*border:1px solid #f00;*/
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.qna_write01{
+    border-bottom: 1px solid #cccccc;
+    border-top: 2px solid #333333;
+}
+
+.qna_write_text01{
+    width: 140px;
+    padding: 30px;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1em;
+    background-color: #eeeeee;
+}
+
+.qna_write_box01{
+    width: 660px;
+    padding: 20px;
+    float: left;
+}
+
+.qna_write_box01 p{
+    height: 36px;
+    line-height: 36px;
+}
+
+.qna_write_box01 input{
+    width: 100%;
+    height: 32px;
+}
+
+.qna_write01:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.qna_write02{
+    border-bottom: 2px solid #333333;
+}
+
+.qna_write_text02{
+    width: 140px;
+    height: 180px;
+    padding: 30px;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 180px;
+    background-color: #eeeeee;
+}
+
+.qna_write_box02{
+    width: 660px;
+    height: 200px;
+    padding: 20px;
+    float: left;
+}
+
+.qna_write_box02 textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+.qna_write02:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.writebtn_box{
+    padding-top: 50px;
+}
+.writebtn{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #262d66;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin: 0 auto;
+}
+
+.writebtn_box01{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.writebtn_box a{
+    display: block;
+    width: 180px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.writebtn_box a:nth-child(1){
+    background: #999999;
+}
+
+.writebtn_box a:nth-child(2){
+    background: #262d66;
+}
+
+.writebtn_box a:nth-child(3){
+    background: #31313e;
+}
+
+.writebtn_box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.modifybtn_box{
+    padding-top: 50px;
+}
+
+.modifybtn{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #262d66;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    border: none;
+    margin: 0 auto;
+}

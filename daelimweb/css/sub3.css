@@ -1,0 +1,498 @@
+/* 문의하기 타이틀 */
+#big_title_box{
+	width: 100%;
+	height: 300px;
+	background: url('../images/big_qna_img01.png') no-repeat 50% 50%;
+	margin-top: 120px;
+}
+
+#big_title_box h2{
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	font-size: 3em;
+	padding-top: 90px;
+}
+
+#big_title_box p{
+	color: white;
+	text-align: center;
+	line-height: 1.2em;
+	font-size: 16px;
+}
+
+
+/* 내비게이션 */
+#navigation{
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+.navigation01{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.navigation_icon01{
+	text-indent: -9999px;
+	display: block;
+	width: 70px;
+	height: 50px;
+	background: url('../images/program/nav_icon01.png') no-repeat 50% 50%;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+
+.navigation_icon02{
+	display: block;
+	width: 270px;
+	height: 50px;
+	border-right: 1px solid #cccccc;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	padding-left: 30px;
+	float: left;
+	background: url('../images/program/down_arrow.png') no-repeat 90% 50%;
+}
+
+.navigation_icon03{
+	display: block;
+	width: 270px;
+	height: 50px;
+	border-right: 1px solid #cccccc;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	padding-left: 30px;
+	float: left;
+	background: url('../images/program/down_arrow.png') no-repeat 90% 50%;
+}
+
+.navigation_sp{
+	font-size: 0.7em;
+}
+
+#navigation > ul > li{
+	position:relative; 
+	width:300px;
+	height:50px;
+	float:left;
+}
+#navigation > ul > li:first-child{
+	width:71px;
+}
+
+#navigation ul li ul{
+	position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 300px;
+    height: 500px;
+    display:none;
+}
+
+#navigation ul li ul li{
+	padding: 13px 0px;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #cccccc;
+    width: 270px;
+    padding-left: 30px;
+    background: #fff;
+    border-top: none;
+}
+
+#navigation ul li ul li a:hover{
+	color: #e64e5d;
+}
+
+#navigation ul li ul li:nth-child(1){
+	border-top: 1px solid #cccccc;
+}
+
+#navigation ul li:hover ul{
+	display:block;
+}
+
+/* center 시작 끝 */
+#container_center{
+	width: 1060px;
+	/*height: 100%;*/
+	margin: 0 auto;
+	/*border: 1px solid #f00;*/
+}
+
+/* 문의하기 content 타이틀 */
+.pg_title01{
+	text-align: center;
+	line-height: 1em;
+	font-size: 2.5em;
+	padding-top: 60px;
+}
+
+.pg_bar{
+	width: 50px;
+	height: 1px;
+	background: #999999;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.pg_title02{
+	text-align: center;
+	line-height: 1em;
+	font-size: 1.35em;
+	color: #666666;
+	padding-top: 20px;
+}
+
+/* 문의하기 checkbox*/
+.pg_check_box{
+	margin-top: 30px;
+	float: left;
+}
+.pg_check_box01{
+	padding: 6px 7px 0px 7px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	height: 30px;
+	float: left;
+}
+
+.checkbox_sc{
+	width: 15px;
+	height: 15px;
+}
+
+.garbage{
+	display: block;
+	text-align: center;
+	line-height: 2.7em;
+	width: 65px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	background: url('../images/garbage.png') no-repeat 20% 50%;
+	float: left;
+	margin-left: 15px;
+}
+
+.edit{
+	display: block;
+	text-align: center;
+	line-height: 2.7em;
+	width: 65px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+	background: url('../images/edit.png') no-repeat 20% 50%;
+	float: left;
+	margin-left: 15px;
+}
+
+/* 문의하기 선택 */
+.pg_down_box{
+	margin-top: 30px;
+	float: right;
+}
+
+.pg_down:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.pg_down_box select{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #cccccc;
+}
+
+.pg_down_box input{
+	width: 300px;
+	height: 30px;
+	color: #cccccc;
+	border: 1px solid #cccccc;
+	box-sizing: border-box;
+}
+
+.pg_down_box_btn{
+	display: block;
+	width: 80px;
+	height: 30px;
+	background: #333333;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	border: none;
+	margin-left: 5px;
+	float: right;
+}
+
+/* 문의하기 board title */
+.board_title{
+	width: 100%;
+	height: 16px;
+	padding: 22px 0px 22px 0px;
+	background: #eeeeee;
+	margin-top: 40px;
+}
+
+.board_title span:nth-child(1){
+	display: block;
+	width: 87px;
+	line-height: 1em;
+	font-size: 1.5em;
+	color: #222222;
+	text-align: center;
+	border-right: 1px solid #cccccc;
+	font-weight: bold;
+	float: left;
+}
+
+.board_title span:nth-child(2){
+	display: block;
+	width: 87px;
+	line-height: 1em;
+	font-size: 1.5em;
+	text-align: center;
+	border-right: 1px solid #cccccc; 
+	color: #222222;
+	font-weight: bold;
+	float: left;
+}
+
+.board_title span:nth-child(3){
+	display: block;
+	width: 632px;
+	line-height: 1em;
+	font-size: 1.5em;
+	text-align: center;
+	border-right: 1px solid #cccccc; 
+	color: #222222;
+	font-weight: bold;
+	float: left;
+}
+
+.board_title span:nth-child(4){
+	display: block;
+	width: 128px;
+	line-height: 1em;
+	font-size: 1.5em;
+	text-align: center;
+	border-right: 1px solid #cccccc; 
+	color: #222222;
+	font-weight: bold;
+	float: left;
+}
+
+.board_title span:nth-child(5){
+	display: block;
+	width: 122px;
+	line-height: 1em;
+	font-size: 1.5em;
+	text-align: center;
+	color: #222222;
+	font-weight: bold;
+	float: left;
+}
+
+
+/* 문의하기 board content */
+.board_content{
+	width: 100%;
+	height: 20px;
+	padding: 22px 0px 22px 0px;
+	border-bottom: 1px solid #eeeeee;
+	line-height: 20px;
+}
+
+.board_content span:nth-child(1){
+	display: block;
+	width: 87px;
+	line-height: 1.2em;
+	color: #222222;
+	text-align: center;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+
+.board_content span:nth-child(2){
+	display: block;
+	width: 87px;
+	line-height: 1.2em;
+	font-size: 1.3em;
+	text-align: center;
+	border-right: 1px solid #cccccc; 
+	color: #222222;
+	float: left;
+}
+
+.board_content p:nth-child(3) a{
+	padding-left: 30px;
+    display: block;
+    width: 602px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+	line-height: 1.2em;
+	font-size: 1.3em;
+	border-right: 1px solid #cccccc; 
+	color: #222222;
+	float: left;
+}
+
+.board_gray{
+	display: block;
+	width: 128px;
+	line-height: 1em;
+	font-size: 1.3em;
+	text-align: center;
+	border-right: 1px solid #cccccc; 
+	color: #999999;
+	float: left;
+}
+
+.board_red{
+	display: block;
+	width: 128px;
+	line-height: 1em;
+	font-size: 1.3em;
+	text-align: center;
+	border-right: 1px solid #cccccc; 
+	color: #e64e5d;
+	float: left;
+}
+
+.board_date{
+	display: block;
+	width: 122px;
+	line-height: 1em;
+	font-size: 1.3em;
+	text-align: center;
+	color: #222222;
+	float: left;
+}
+
+/* 게시판 page number */
+.page_number{
+	margin: 60px 0px 110px 0px;
+}
+
+.page_number ul{
+	margin:0 auto; 
+	width: 360px;
+    height: 32px;
+}
+
+.page_number li{
+	float: left;
+	margin: 0px 4px;
+}
+
+.page_number:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.page_number_darrow01{
+	display: block;
+	border: 1px solid #cccccc;
+	width: 30px;
+	height: 30px;
+	text-indent: -9999px;
+	background: url('../images/qna_arrow01.png') no-repeat 50% 50%;
+}
+
+.page_number_arrow01{
+	display: block;
+	border: 1px solid #cccccc;
+	width: 30px;
+	height: 30px;
+	text-indent: -9999px;
+	background: url('../images/qna_arrow02.png') no-repeat 50% 50%;
+}
+
+
+
+.page_num_bth{
+	display: block;
+	border: 1px solid #cccccc;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 1.3em;
+	line-height: 30px;
+}
+
+.page_number_arrow02{
+	display: block;
+	border: 1px solid #cccccc;
+	width: 30px;
+	height: 30px;
+	text-indent: -9999px;
+	background: url('../images/qna_arrow02.png') no-repeat 50% 50%;
+	transform: rotate(180deg); 
+}
+
+.page_number_darrow02{
+	display: block;
+	border: 1px solid #cccccc;
+	width: 30px;
+	height: 30px;
+	text-indent: -9999px;
+	background: url('../images/qna_arrow01.png') no-repeat 50% 50%;
+	transform: rotate(180deg);
+}
+
+/* 문의하기 바로가기 */
+.qna_direct{
+	width: 100%;
+	height: 150px;
+	background: #eeeeee;
+}
+
+.qna_direct_box{
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.qna_direct_box span:nth-child(1){
+	display: block;
+	width: 23px;
+	height: 30px;
+	text-indent: -9999px;
+	margin-top: 60px;
+	background: url('../images/qna_direct_icon.png') no-repeat 50% 50%;
+	float: left;
+}
+
+.qna_direct_box span:nth-child(2){
+	font-size: 1.35em;
+	line-height: 150px;
+	margin-left: 10px;
+}
+
+.qna_direct_btn{
+	display: block;
+	width: 150px;
+	height: 50px;
+	padding-left: 50px;
+	font-size: 16px;
+	line-height: 3.3em;
+	border: 1px solid #000;
+	margin-top: 50px;
+	background: url('../images/qna_arrow03.png') no-repeat 75% 50%;
+	float: right;
+}
+
+.delbtn{
+	cursor: pointer;
+}

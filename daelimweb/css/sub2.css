@@ -1,0 +1,253 @@
+/* 이벤트 타이틀 */
+#big_title_box{
+	width: 100%;
+	height: 300px;
+	background: url('../images/event/big_ev_img01.png') no-repeat 50% 50%;
+	margin-top: 120px;
+}
+
+#big_title_box h2{
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	font-size: 3em;
+	padding-top: 90px;
+}
+
+#big_title_box p{
+	color: white;
+	text-align: center;
+	line-height: 1.2em;
+	font-size: 16px;
+}
+
+
+/* 내비게이션 */
+#navigation{
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+.navigation01{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.navigation_icon01{
+	text-indent: -9999px;
+	display: block;
+	width: 70px;
+	height: 50px;
+	background: url('../images/program/nav_icon01.png') no-repeat 50% 50%;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+
+.navigation_icon02{
+	display: block;
+	width: 270px;
+	height: 50px;
+	border-right: 1px solid #cccccc;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	padding-left: 30px;
+	float: left;
+	background: url('../images/program/down_arrow.png') no-repeat 90% 50%;
+}
+
+.navigation_icon03{
+	display: block;
+	width: 270px;
+	height: 50px;
+	border-right: 1px solid #cccccc;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	padding-left: 30px;
+	float: left;
+	background: url('../images/program/down_arrow.png') no-repeat 90% 50%;
+}
+
+.navigation_sp{
+	font-size: 0.7em;
+}
+
+#navigation > ul > li{
+	position:relative; 
+	width:300px;
+	height:50px;
+	float:left;
+}
+#navigation > ul > li:first-child{
+	width:71px;
+}
+
+#navigation ul li ul{
+	position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 300px;
+    height: 500px;
+    display:none;
+}
+
+#navigation ul li ul li{
+	padding: 13px 0px;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #cccccc;
+    width: 270px;
+    padding-left: 30px;
+    background: #fff;
+    border-top: none;
+}
+
+#navigation ul li ul li a:hover{
+	color: #e64e5d;
+}
+
+#navigation ul li ul li:nth-child(1){
+	border-top: 1px solid #cccccc;
+}
+
+#navigation ul li:hover ul{
+	display:block;
+}
+
+/* center 시작 끝 */
+#container_center{
+	width: 1200px;
+	/*height: 100%;*/
+	margin: 0 auto;
+	/*border: 1px solid #f00;*/
+}
+
+.event_padd{
+	padding-bottom: 30px;
+}
+
+/* 이벤트 content 타이틀 */
+.pg_title01{
+	text-align: center;
+	line-height: 1em;
+	font-size: 2.5em;
+	padding-top: 60px;
+}
+
+.pg_bar{
+	width: 50px;
+	height: 1px;
+	background: #999999;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.pg_title02{
+	text-align: center;
+	line-height: 1em;
+	font-size: 1.35em;
+	color: #666666;
+	padding-top: 20px;
+}
+
+/* 이벤트 선택 */
+.pg_down_box{
+	margin-top: 30px;
+	float: right;
+}
+
+.pg_down:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.pg_down_box select{
+	width: 300px;
+	height: 30px;
+}
+
+.pg_down_box button{
+	width: 80px;
+	height: 30px;
+	background: #333333;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	border: none;
+	margin-left: 5px;
+}
+
+/* 이벤트 리스트 */
+.pg_list{
+	padding-top: 10px;
+	width: 100%;
+}
+
+.pg_list:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.event_row{
+	/*padding-top: 30px;*/
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.event_row:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.pg_padding{
+	padding: 0px 15px 0px 15px;
+	margin-top: 30px;
+}
+
+.pg_inner{
+	display: block;
+	width: 100%;
+	height: 317px;
+	background-color: #fff;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.pg_inner p{
+	padding-left: 20px;
+	line-height: 1em;
+}
+
+.pg_padding p:nth-child(2){
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 10px;
+}
+
+.pg_padding p:nth-child(3){
+	color: #666666;
+	padding-top: 5px;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+}
+
+.pg_more{
+	margin-top: 25px;
+	margin-bottom: 60px;
+	display: block;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	color: #333333;
+	background: url('../images/more_icon.png') no-repeat 53.5% 50%;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}

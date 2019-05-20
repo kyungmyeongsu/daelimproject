@@ -1,0 +1,202 @@
+body{
+	width: 100%;
+}
+
+.logo_box{
+	width: 800px;
+	height: 90px;
+	margin: 0 auto;
+}
+
+.logo_application{
+	display: block;
+	width: 268px;
+	height: 60px;
+	background: url('../images/logo.png') no-repeat 0 50%;
+	text-indent: -9999px;
+	margin-top: 20px;
+}
+
+/* 교육 프로그램 참여 신청 타이틀 */
+.application_title_box{
+	width: 100%;
+	height: 300px;
+	background: url('../images/application_img01.png') no-repeat 50% 50%;
+}
+
+.application_title_box h2{
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	font-size: 3em;
+	padding-top: 90px;
+}
+
+.application_title_box p{
+	color: white;
+	text-align: center;
+	line-height: 1.2em;
+	font-size: 16px;
+}
+
+/* table */
+.application_center{
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+thead tr{
+	height: 80px;
+}
+
+.table_text01{
+	background: #333333;
+	color: white;
+	font-size: 2.3em;
+	text-align: center;
+	cursor: pointer;
+}
+
+.table_text01 span,.table_text02 span{
+	font-size: 0.7em;
+}
+
+.table_text02{
+	text-align: center;
+	color: #333333;
+	font-size: 2.3em;
+	cursor: pointer;
+}
+
+tbody tr{
+	height: 60px;
+}
+
+tbody tr:last-child{
+	height: 140px;
+}
+
+tbody tr td{
+	font-size: 1.35em;
+	color: #333333;
+	text-align: center;
+}
+
+tbody tr td:nth-child(1){
+	font-weight: bold;
+}
+
+tbody tr td:nth-child(3){
+	font-weight: bold;
+}
+
+.sub4_input01{
+	width: 100%;
+    height: 60px;
+    border: none;
+}
+
+.sub4_phone{
+	text-align: left;
+	padding-left: 20px;
+}
+
+.sub4_phone_box01{
+	height: 30px;
+}
+
+.sub4_etc{
+	width: 100%;
+	height: 140px;
+	border: none;
+	resize: none;
+}
+
+/* 개인정보 수집 동의 */
+.personal_data{
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.application_check{
+	width: 20px;
+	height: 20px;
+}
+
+.personal_data p{
+	padding-left: 80px;
+	line-height: 1.5em;
+	font-size: 14px;
+	color: #222222;
+}
+
+.personal_data p:nth-child(1){
+	padding-top: 30px;
+	padding-left: 30px !important;
+}
+
+/* 주의사항 */
+.application_footer{
+	width: 100%;
+	background: #f4f4f4;
+	padding-bottom: 15px;
+}
+
+.caution_box{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.caution_box p{
+	padding-left: 50px;
+	line-height: 2em;
+	font-size: 1.2em;
+	color: #222222;
+}
+
+.caution_box p:nth-child(1){
+	color: #e64e5d;
+	font-size: 1.7em;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+/* 프로그램 신청서 버튼 */
+.application_btn{
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.application_btn:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.application_btn a{
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	height: 60px;
+	font-size: 1.5em;
+	line-height: 3.5em;
+}
+
+.application_btn a:nth-child(1){
+	background: #31313e;
+}
+
+.application_btn a:nth-child(2){
+	background: #262d66;
+}

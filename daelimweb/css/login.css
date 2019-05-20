@@ -1,0 +1,100 @@
+#login_content{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#login_content:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.login_title h1{
+    font-size: 36px;
+    line-height: 1em;
+    padding-top: 120px;
+}
+
+.login_title p{
+    font-size: 14px;
+    line-height: 1em;
+    padding-top: 20px;
+}
+
+.login_box{
+    padding-top: 50px;
+}
+
+.login_aside{
+    width: 400px;
+    float: right;
+}
+
+.login_form{
+    padding-top: 50px;
+}
+
+.login_form input{
+    width: 400px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.login_form input:nth-child(2){
+    padding-left: 20px;
+}
+
+.login_form input:nth-child(3){
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.login_autologin input{
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.login_autologin p{
+    float: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.login_autologin:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.login_form input:nth-child(5){
+    margin-top: 30px;
+    background: #262d66;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login_etc{
+    padding-top: 20px;
+}
+
+.login_etc a{
+    display: block;
+    width: 130px;
+    height: 40px;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    float: left;
+    line-height: 40px;
+    padding-left: 20px;
+    background: url('../images/login_etc.png') no-repeat 85% 50%;
+}
+
+.login_etc a:nth-child(2), .login_etc a:nth-child(3){
+    margin-left: 5px;
+}

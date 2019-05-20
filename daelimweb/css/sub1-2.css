@@ -1,0 +1,365 @@
+/* 교육 프로그램 타이틀 */
+#big_title_box{
+	width: 100%;
+	height: 300px;
+	background: url('../images/program/big_pg_img01.png') no-repeat 50% 50%;
+	margin-top: 120px;
+}
+
+#big_title_box h2{
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	font-size: 3em;
+	padding-top: 90px;
+}
+
+#big_title_box p{
+	color: white;
+	text-align: center;
+	line-height: 1.2em;
+	font-size: 16px;
+}
+
+
+/* 내비게이션 */
+#navigation{
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+.navigation01{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.navigation_icon01{
+	text-indent: -9999px;
+	display: block;
+	width: 70px;
+	height: 50px;
+	background: url('../images/program/nav_icon01.png') no-repeat 50% 50%;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	float: left;
+}
+
+.navigation_icon02{
+	display: block;
+	width: 270px;
+	height: 50px;
+	border-right: 1px solid #cccccc;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	padding-left: 30px;
+	float: left;
+	background: url('../images/program/down_arrow.png') no-repeat 90% 50%;
+}
+
+.navigation_icon03{
+	display: block;
+	width: 270px;
+	height: 50px;
+	border-right: 1px solid #cccccc;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	padding-left: 30px;
+	float: left;
+	background: url('../images/program/down_arrow.png') no-repeat 90% 50%;
+}
+
+.navigation_icon04{
+	display: block;
+	width: 270px;
+	height: 50px;
+	border-right: 1px solid #cccccc;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	padding-left: 30px;
+	float: left;
+	background: url('../images/program/down_arrow.png') no-repeat 90% 50%;
+}
+
+.navigation_sp{
+	font-size: 0.7em;
+}
+
+/* center 시작 끝 */
+#container_center{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/* 프로그램 신청 타이틀 */
+.pg_title01{
+	text-align: center;
+	line-height: 1em;
+	font-size: 2.5em;
+	padding-top: 60px;
+}
+
+.pg_bar{
+	width: 50px;
+	height: 1px;
+	background: #999999;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.pg_title02{
+	text-align: center;
+	line-height: 1em;
+	font-size: 16px;
+	color: #666666;
+	padding-top: 20px;
+}
+
+/* 프로그램 신청 content */
+.pgdetail{
+	margin-top: 30px;
+}
+
+.pgdetail:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.pgdetail_img01{
+	height: 600px;
+	background: url('../images/pgdetail_img01.png') no-repeat 50% 50%;
+}
+
+.pgdetail_box01{
+	height: 600px;
+	padding: 70px 0px 40px 60px;
+}
+
+.pgdetail_box01 p{
+	font-size: 1.2em;
+	line-height: 1em;
+}
+
+.pgdetail_box01 span{
+	color: #e64e5d;
+}
+
+.pgdetail_box01 p:nth-child(1){
+	font-weight: bold;
+}
+
+.pgdetail_box01 h2:nth-child(2){
+	line-height: 2.5em;
+	font-size: 28px;
+	padding-left: 10px;
+}
+
+.pgdetail_box01 p:nth-child(3){
+	line-height: 1.4em;
+	margin-top: 30px;
+	letter-spacing: -0.5px;
+}
+
+.pgdetail_box01 p:nth-child(4){
+	margin-top: 30px;
+	line-height: 1.4em;
+	letter-spacing: -0.5px;
+}
+
+.pgdetail_box01 p:nth-child(5){
+	margin-top: 30px;
+	line-height: 1.4em;
+	letter-spacing: -0.5px;
+}
+
+.application_btn{
+	margin-top: 80px;
+	display: block;
+	width: 540px;
+	height: 50px;
+	background: #262d66;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 1.35em;
+	line-height: 3em;
+}
+
+.application_btn:hover{
+	margin-top: 80px;
+	display: block;
+	width: 540px;
+	height: 50px;
+	background: #262d99;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 1.35em;
+	line-height: 3em;
+}
+
+/* 프로그램 신청 tabbar */
+.pg_tabbar{
+	margin-top: 60px;
+}
+.pg_tabbar:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*.pg_tabbar01{*/
+/*	border: 1px solid #dddddd;*/
+/*	display: block;*/
+/*	height: 50px;*/
+/*	text-align: center;*/
+/*	font-size: 1.35em;*/
+/*	line-height: 3em;*/
+/*	font-weight: bold;*/
+/*	background: #f4f4f4;*/
+/*	color: #aaaaaa;*/
+/*}*/
+
+/*.pg_tabbar01:hover{*/
+/*	border: 1px solid #dddddd;*/
+/*	display: block;*/
+/*	height: 50px;*/
+/*	text-align: center;*/
+/*	font-size: 1.35em;*/
+/*	line-height: 3em;*/
+/*	font-weight: bold;*/
+/*	background: #eeeeee;*/
+/*	color: #aaaaaa;*/
+/*}*/
+
+/*.pg_tabbar02{*/
+/*	border: 1px solid #000;*/
+/*	display: block;*/
+/*	height: 50px;*/
+/*	text-align: center;*/
+/*	font-size: 1.35em;*/
+/*	line-height: 3em;*/
+/*	font-weight: bold;*/
+/*	color: #333333; */
+/*}*/
+
+/* 프로그램 과정 이미지 */
+.pg_process{
+	padding-top: 50px;
+}
+.pg_process:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.pg_process_box{
+	padding: 0px 10.5px 0px 10.5px;
+	height: 370px;
+}
+
+.pg_process_row {
+  margin-right: -10.5px;
+  margin-left: -10.5px;
+}
+
+.pg_process_inner{
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.pg_process_img01{
+	height: 240px;
+	background: url('../images/pg_process_img01.png') no-repeat 50% 50%;
+}
+
+.pg_process_img02{
+	height: 240px;
+	background: url('../images/pg_process_img02.png') no-repeat 50% 50%;
+}
+
+.pg_process_img03{
+	height: 240px;
+	background: url('../images/pg_process_img03.png') no-repeat 50% 50%;
+}
+
+.pg_process_inner h2:nth-child(2){
+	padding: 30px 30px 0px 20px;
+	line-height: 1em;
+}
+
+.pg_process_inner p:nth-child(3){
+	padding: 20px 30px 30px 20px;
+	line-height: 1em;
+	color: #666666;
+	font-size: 1.35em;
+	letter-spacing: -0.5px;
+}
+
+/* 프로그램 과정 텍스트*/
+.pg_time:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.pg_time_box{
+	height: 300px;
+	padding: 60px 20px 10px 30px;
+}
+
+.pg_time_bar{
+	width: 40px;
+	height: 2px;
+	background: #262d66;
+}
+
+.pg_time_box p:nth-child(2){
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1em;
+	color: #222222;
+	padding-top: 40px;
+}
+
+.pg_time_box p:nth-child(3){
+	line-height: 1em;
+	color: #262d66;
+	padding-top: 15px;
+}
+
+.pg_time_box p:nth-child(4){
+	line-height: 1.5em;
+	color: #666666;
+	padding-top: 30px;
+}
+
+/* 더보기 버튼 */
+.pg_teacher_more{
+	margin-top: 50px;
+	margin-bottom: 60px;
+	display: block;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	color: #333333;
+	background: #f4f4f4;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.pg_teacher_more:hover{
+	margin-top: 50px;
+	margin-bottom: 60px;
+	display: block;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2.8em;
+	color: #333333;
+	background: #eeeeee;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
