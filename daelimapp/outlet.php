@@ -2,8 +2,8 @@
 <?php
 function getDB(){
     $db = new mysqli("localhost"
-                ,"myeongsu"
-                ,""
+                ,"Username"
+                ,"password"
                 ,"c9");
 
     $db->set_charset("utf8");
